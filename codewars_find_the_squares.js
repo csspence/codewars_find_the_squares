@@ -15,5 +15,6 @@ findSquares(5)  // returns '9-4'
 const findSquares = num => {
   let max = Math.ceil(num / 2);
   let min = num - max;
-   return `${max*max}-${min*min}`;
+  
+  return `${max*max}-${min*min}`;
 };
